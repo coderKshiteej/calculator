@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment no.09</title>
+    <style>
+        body{
+            background-color:aquamarine
+            margin: 0;
+        }
+
+        .card{
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        #img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: 20px;
+            margin-top: 30px;
+            
+        }
+
+        .heading-txt{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-small;
+        }
+
+        .p-text{
+            text-align: center;
+            font-size: 7px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .tabs{
+            height: 30px;
+            width: 130px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        
+
+        .a{
+            font-size: 6px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            width: 58px;
+            display: inline-block;
+            padding: 2px;
+            text-align: center;
+            margin: 0;
+            border: 1px solid black;
+            border-radius: 1px;
+            background-color: red;
+        }
+        .b
+        {
+            font-size: 6px;
+            font-family: 'Times New Roman', Times, serif;
+            width: 58px;
+            display: inline-block;
+            padding: 2px;
+            text-align: center;
+            margin: 0;
+            border: 0.5px solid black;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+        <img src=" data:image/jpeg;base64,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" id="img" />
+        <h3 class="heading-txt">
+            Please remember to add a link to us whenever you use this icon
+        </h3>
+
+        <p class="p-text">It should look like this:</p>
+        <div class="tabs">
+            <div class=" a"> Mic icons</div>
+            <div class="b">Copy HTML</div>
+        </div>
+        </div>
+
+    </div>
+</body>
+</html>
